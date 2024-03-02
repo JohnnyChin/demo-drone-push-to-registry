@@ -19,3 +19,5 @@ steps:
   - echo $USERNAME
   - echo $PASSWORD
   - echo "In both cases, and for security reasons, you will see asteriks '*******' instead the value under the echo command."
+  - docker build .
+  - docker push
