@@ -1,12 +1,12 @@
 kind: pipeline
 type: kubernetes
-name: hello-world
+name: docker-push-demo
 
 steps:
 - name: docker  
   image: plugins/docker
   settings:
-    # registry: docker.io
+    registry: docker.io
     repo: johnnyc96/drone-push-to-registry
     username:
       from_secret: docker_username
