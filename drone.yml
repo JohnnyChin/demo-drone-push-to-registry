@@ -18,6 +18,6 @@ steps:
   - echo "You can call the secrets like this examples below."
   - echo $username
   - echo $password
-  - echo "In both cases, and for security reasons, you will see asteriks '*******' instead the value under the echo command."
+  - echo "In both cases, and for security reasons, you will see asteriks '*******' instead the value under the echo command!"
   - docker build .
   - docker push
