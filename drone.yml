@@ -14,3 +14,8 @@ steps:
       from_secret: docker_password
     tags: 
     - latest
+	commands:
+    - echo "You can call the secrets like this examples below."
+    - echo $USERNAME
+    - echo $PASSWORD
+    - echo "In both cases, and for security reasons, you will see asteriks '*******' instead the value under the echo command."
