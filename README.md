@@ -1,2 +1,2 @@
 # demo-drone-push-to-registry
-demo-drone-push-to-registry edited
+demo-drone-push-to-registry
