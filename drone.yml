@@ -1,6 +1,6 @@
 kind: pipeline
 type: kubernetes
-name: hello-world
+name: docker-push-demo
 
 steps:
 - name: docker  
